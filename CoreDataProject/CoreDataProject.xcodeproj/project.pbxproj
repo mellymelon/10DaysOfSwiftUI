@@ -16,6 +16,10 @@
 		204EC2F625E8CB3400160090 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EC2F425E8CB3400160090 /* Singer+CoreDataClass.swift */; };
 		204EC2F725E8CB3400160090 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EC2F525E8CB3400160090 /* Singer+CoreDataProperties.swift */; };
 		204EC2FA25E8D0FD00160090 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EC2F925E8D0FD00160090 /* FilteredList.swift */; };
+		204EC30025E8DF3A00160090 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EC2FC25E8DF3A00160090 /* Country+CoreDataClass.swift */; };
+		204EC30125E8DF3A00160090 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EC2FD25E8DF3A00160090 /* Country+CoreDataProperties.swift */; };
+		204EC30225E8DF3A00160090 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EC2FE25E8DF3A00160090 /* Candy+CoreDataClass.swift */; };
+		204EC30325E8DF3A00160090 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EC2FF25E8DF3A00160090 /* Candy+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		204EC2F425E8CB3400160090 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
 		204EC2F525E8CB3400160090 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		204EC2F925E8D0FD00160090 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		204EC2FC25E8DF3A00160090 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		204EC2FD25E8DF3A00160090 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		204EC2FE25E8DF3A00160090 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		204EC2FF25E8DF3A00160090 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 		204EC2DE25E8937D00160090 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				204EC2FC25E8DF3A00160090 /* Country+CoreDataClass.swift */,
+				204EC2FD25E8DF3A00160090 /* Country+CoreDataProperties.swift */,
+				204EC2FE25E8DF3A00160090 /* Candy+CoreDataClass.swift */,
+				204EC2FF25E8DF3A00160090 /* Candy+CoreDataProperties.swift */,
 				204EC2F425E8CB3400160090 /* Singer+CoreDataClass.swift */,
 				204EC2F525E8CB3400160090 /* Singer+CoreDataProperties.swift */,
 				204EC2DF25E8937D00160090 /* CoreDataProjectApp.swift */,
@@ -154,12 +166,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				204EC2E925E8938000160090 /* Persistence.swift in Sources */,
+				204EC30225E8DF3A00160090 /* Candy+CoreDataClass.swift in Sources */,
+				204EC30325E8DF3A00160090 /* Candy+CoreDataProperties.swift in Sources */,
 				204EC2F725E8CB3400160090 /* Singer+CoreDataProperties.swift in Sources */,
 				204EC2E225E8937D00160090 /* ContentView.swift in Sources */,
 				204EC2F625E8CB3400160090 /* Singer+CoreDataClass.swift in Sources */,
 				204EC2EC25E8938000160090 /* CoreDataProject.xcdatamodeld in Sources */,
 				204EC2E025E8937D00160090 /* CoreDataProjectApp.swift in Sources */,
+				204EC30025E8DF3A00160090 /* Country+CoreDataClass.swift in Sources */,
 				204EC2FA25E8D0FD00160090 /* FilteredList.swift in Sources */,
+				204EC30125E8DF3A00160090 /* Country+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
